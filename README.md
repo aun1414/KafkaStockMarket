@@ -1,4 +1,4 @@
-#Real-Time Stock Market Analysis using Kafka
+##Real-Time Stock Market Analysis using Kafka
 
 Introduction:
 The Real-Time Stock Market Data Engineering Project utilizes Apache Kafka as a messaging system to collect, process, and analyze streaming data from stock market sources. This project demonstrates the end-to-end process of handling real-time data, from ingestion to storage, processing, and analysis, using a combination of Python, Amazon Web Services (AWS) services such as S3, Athena, Glue, EC2, and Kafka.
