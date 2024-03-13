@@ -9,5 +9,11 @@ producer = KafkaProducer(bootstrap_servers=['3.94.116.179:9092'], #change ip her
                          dumps(x).encode('utf-8'))
 producer.send('demo_testing2', {"dataObjectID": "test1"})
 
-
+df = pd.read_csv("data/indexProcessed.csv")
+df.head()
+while True:
+    dict_stock = df.sample(1).to_dict(orient="records")[0]
+    producer.send('demo_test', value=dict_stock)
+    sleep(1)
+producer.flush() #clear data from kafka server
 
