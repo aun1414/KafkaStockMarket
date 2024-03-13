@@ -1,9 +1,9 @@
-##Real-Time Stock Market Analysis using Kafka
+# Real-Time Stock Market Analysis using Kafka
 
-Introduction:
+## Introduction:
 The Real-Time Stock Market Data Engineering Project utilizes Apache Kafka as a messaging system to collect, process, and analyze streaming data from stock market sources. This project demonstrates the end-to-end process of handling real-time data, from ingestion to storage, processing, and analysis, using a combination of Python, Amazon Web Services (AWS) services such as S3, Athena, Glue, EC2, and Kafka.
 
-Technology Overview:
+## Technology Overview:
 
 Programming Language - Python:
 Python is used for building various components of the data engineering pipeline, including data ingestion, processing, and analysis. Python provides a rich ecosystem of libraries and frameworks for working with real-time data, making it a suitable choice for this project.
@@ -26,7 +26,7 @@ Amazon EC2 instances are used for deploying and running Kafka brokers, which ser
 Apache Kafka:
 Apache Kafka is a distributed streaming platform used for building real-time data pipelines. It enables high-throughput, fault-tolerant messaging, making it well-suited for processing streaming data from stock market sources.
 
-Project Description:
+## Project Description:
 
 Data Ingestion:
 Real-time stock market data is ingested into the Kafka messaging system from various sources such as stock exchanges, financial APIs, or data providers.
@@ -46,5 +46,12 @@ Analysts or data scientists can perform ad-hoc queries to gain insights into sto
 Conclusion:
 The Real-Time Stock Market Data Engineering Project demonstrates the capabilities of Kafka and AWS services for handling streaming data in real-time. By leveraging Python for data processing and AWS for scalable infrastructure, the project enables efficient ingestion, storage, processing, and analysis of stock market data, empowering organizations to make data-driven decisions in the rapidly changing financial markets.
 
-#EC2 Instance
+# EC2 Instance
 ![kafka3](https://github.com/aun1414/KafkaStockMarket/assets/106032365/9606c880-85ad-4d4b-bb06-8bb1cbbe67b3)
+
+#Producer Consumer Communication
+![kafka1](https://github.com/aun1414/KafkaStockMarket/assets/106032365/3551d549-f157-4cfc-9c76-8cae18a0f24d)
+
+![kafka2](https://github.com/aun1414/KafkaStockMarket/assets/106032365/b428edd5-1d5f-462d-adab-4325d4b15129)
+
+
