@@ -36,6 +36,7 @@ Data Processing:
 
 Kafka streams are processed in real-time using consumer applications deployed on EC2 instances.
 Python scripts or Kafka Streams API are utilized for processing, filtering, aggregating, or enriching the streaming data.
+
 Data Storage:
 
 Raw streaming data is stored in S3 buckets for durability and scalability.
