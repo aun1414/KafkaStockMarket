@@ -29,8 +29,9 @@ Apache Kafka is a distributed streaming platform used for building real-time dat
 ## Project Description:
 
 Data Ingestion:
-Real-time stock market data is ingested into the Kafka messaging system from various sources such as stock exchanges, financial APIs, or data providers.
+Real-time stock market data is ingested into the Kafka messaging system.
 Python scripts are used to fetch and publish streaming data to Kafka topics.
+
 Data Processing:
 
 Kafka streams are processed in real-time using consumer applications deployed on EC2 instances.
@@ -39,6 +40,7 @@ Data Storage:
 
 Raw streaming data is stored in S3 buckets for durability and scalability.
 Glue Crawlers automatically catalog metadata of the data stored in S3, enabling seamless integration with Glue Catalog and Athena.
+
 Data Analysis:
 
 Athena is used for querying and analyzing the stored data using SQL queries.
