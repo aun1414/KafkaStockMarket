@@ -46,7 +46,9 @@ Data Analysis:
 
 Athena is used for querying and analyzing the stored data using SQL queries.
 Analysts or data scientists can perform ad-hoc queries to gain insights into stock market trends, patterns, or anomalies in real-time.
+
 Conclusion:
+
 The Real-Time Stock Market Data Engineering Project demonstrates the capabilities of Kafka and AWS services for handling streaming data in real-time. By leveraging Python for data processing and AWS for scalable infrastructure, the project enables efficient ingestion, storage, processing, and analysis of stock market data, empowering organizations to make data-driven decisions in the rapidly changing financial markets.
 
 # EC2 Instance
